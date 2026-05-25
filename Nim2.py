@@ -16,7 +16,7 @@ while sum(piles) > 0:
     piles[pile] = piles[pile] - sticks
 
     # change player
-    if player == 1:
+    if player == 1: 
         player = 2
     else:
         player = 1
